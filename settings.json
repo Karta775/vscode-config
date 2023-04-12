@@ -1,0 +1,35 @@
+{
+    // General
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Roboto Mono'",
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.smoothScrolling": true,
+    "editor.bracketPairColorization.enabled": false,
+    "explorer.decorations.colors": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.statusBar.visible": false,
+    "workbench.tree.indent": 10,
+    "editor.scrollbar.vertical": "hidden",
+
+    // LaTeX additions
+    "latex-workshop.latex.outDir": "%DIR%/.aux",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "ltex.additionalRules.motherTongue": "en-GB",
+    "ltex.language": "en-GB",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "[latex]": { 
+        "editor.wordWrap": "on" ,
+        "editor.occurrencesHighlight": false
+    },
+    "workbench.colorTheme": "Default Light+"
+}
