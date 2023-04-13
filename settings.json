@@ -4,6 +4,7 @@
     "editor.fontSize": 16,
     "editor.fontFamily": "'Roboto Mono'",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
     "breadcrumbs.enabled": false,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.renderLineHighlight": "gutter",
@@ -30,6 +31,5 @@
     "[latex]": { 
         "editor.wordWrap": "on" ,
         "editor.occurrencesHighlight": false
-    },
-    "workbench.colorTheme": "Default Light+"
+    }
 }
