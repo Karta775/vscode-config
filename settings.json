@@ -19,6 +19,7 @@
     "workbench.tree.indent": 10,
     "editor.scrollbar.vertical": "hidden",
     "git.autofetch": true,
+    "git.confirmSync": false,
 
     // LaTeX additions
     "latex-workshop.latex.outDir": "%DIR%/.aux",
