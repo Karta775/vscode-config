@@ -20,6 +20,11 @@
     "editor.scrollbar.vertical": "hidden",
     "git.autofetch": true,
     "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "editorInlayHint.foreground": "#df901ac2",
+        "editorInlayHint.background": "#0000",
+    },
 
     // LaTeX additions
     "latex-workshop.latex.outDir": "%DIR%/.aux",
