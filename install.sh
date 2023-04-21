@@ -9,12 +9,13 @@ CODE_MAC=~/Library/Application\ Support/Code/User
 err() { echo "$1"; exit 1; }
 
 backup() {
-	echo "Backing up old configuration to $CODE/$CFG.bac"
-	cp -v "$CODE/$CFG" "$CODE/$CFG.bac"
-	[ -d "$CODE/$SNIP" ] && {
-		echo "Backing up old snippets to $CODE/$SNIP.bac/"
+	echo "Backing up old configuration"
+	[ -e "$CODE/$CFG.bac" ] || cp -uv "$CODE/$CFG" "$CODE/$CFG.bac"
+	[ ! -d "$CODE/$SNIP.bac" ] || [ ! -d "$CODE/SNIP" ] || return 0
+	[ $(ls -A "$CODE/$SNIP" | wc -l) -ne 0 ] && {
+		echo 3
 		mkdir "$CODE/$SNIP.bac" && cp -v "$CODE/$SNIP/*" "$CODE/$SNIP.bac/"
-	}
+	} || return 0
 }
 
 link() {
