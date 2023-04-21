@@ -1,7 +1,7 @@
 {
     // General
     "window.titleBarStyle": "custom",
-    "editor.fontSize": 16,
+    "editor.fontSize": 13,
     "editor.fontFamily": "'Roboto Mono'",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Default Dark+",
